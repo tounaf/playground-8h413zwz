@@ -11,3 +11,6 @@ plan:
 
 - title: La boucle do-while
   statement: markdowns/boucle-do-while.md
+
+- title: Exercice 1
+  statement: markdowns/exercices/ex1.md
