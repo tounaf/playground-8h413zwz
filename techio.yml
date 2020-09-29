@@ -1,13 +1,13 @@
 title: Introduction à PHP - Module M1202 - MMI1
 plan:
 - title: Introduction
-  statement: php/introduction.md
+  statement: markdowns/introduction.md
 
 - title: La boucle for
-  statement: php/boucle-for.md
+  statement: markdowns/boucle-for.md
 
 - title: La boucle while
-  statement: php/boucle-while.md
+  statement: markdowns/boucle-while.md
 
 - title: La boucle do-while
-  statement: php/boucle-do-while.md
+  statement: markdowns/boucle-do-while.md
