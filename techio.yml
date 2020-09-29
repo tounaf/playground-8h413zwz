@@ -5,3 +5,9 @@ plan:
 
 - title: La boucle for
   statement: php/boucle-for.md
+
+- title: La boucle while
+  statement: php/boucle-while.md
+
+- title: La boucle do-while
+  statement: php/boucle-do-while.md
