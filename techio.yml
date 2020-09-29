@@ -14,3 +14,10 @@ plan:
 
 - title: Exercice 1
   statement: markdowns/exercices/ex1.md
+  
+projects:
+  first-project:
+    root: /php-template
+    runner:
+      name: php
+      version: latest
