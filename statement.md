@@ -1,6 +1,22 @@
-# Welcome!
+# Apprentissage des concepts fondamentaux de l'algorithmique et de PHP
 
-This PHP template lets you get started quickly with a simple one-page playground.
+Nous allons voir en détail le fonctionnement de la boucle for
+
+Cette boucle est composée de trois éléments :
+
+    l'initialisation de l'index utilisé pour la boucle : initialisation
+    la condition que doit vérifier l'index pour continuer la boucle : condition
+    la modification apportée à l'index : modification
+
+La structure de la boucle est la suivante :
+```php
+<?php
+for (initialisation ; condition ; modification) {
+   actions;
+}
+?>
+```
+
 
 ```php runnable
 <?php
