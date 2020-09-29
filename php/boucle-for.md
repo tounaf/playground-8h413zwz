@@ -1,4 +1,4 @@
-# Apprentissage des concepts fondamentaux de l'algorithmique et de PHP
+# La boucle FOR
 
 Nous allons voir en détail le fonctionnement de la boucle for
 

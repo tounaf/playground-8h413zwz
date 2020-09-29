@@ -1,4 +1,7 @@
-title: Simple PHP Template
+title: Introduction à PHP - Module M1202 - MMI1
 plan:
-- title: PHP Snippet
-  statement: statement.md
+- title: Introduction
+  statement: php/introduction.md
+
+- title: La boucle for
+  statement: php/boucle-for.md
