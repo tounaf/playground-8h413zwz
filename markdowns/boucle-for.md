@@ -30,7 +30,6 @@ La boucle for doit être utilisée plutôt dans les situations suivantes :
 
 Ce programme permet d'afficher les entiers de 1 à 10 en passant une ligne à chaque fois :
 
-
 ```php runnable
 <?php
    for ($i = 1 ; $i <= 10 ; $i++) {
@@ -40,5 +39,6 @@ Ce programme permet d'afficher les entiers de 1 à 10 en passant une ligne à ch
 ```
 
 Modifiez ce programme pour qu'il affiche les entiers sur la même ligne, séparés par une tabulation, puis affiche un retour chariot après la boucle.
+Attention, il ne faut pas ajouter de tabulation inutile après le dernier entier.
 
 @[Remplissons des variables]({"stubs": ["boucle-for_exo1.php"], "command": "php boucle-for_exo1_test.php"})
