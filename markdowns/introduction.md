@@ -8,6 +8,7 @@ Nous verrons ici :
 - les fonctions
 - les tableaux
 
+
 ## Pré-requis
 
 Un minimum de maitrise de la syntaxe PHP est requis pour pouvoir suivre ce cours, notamment la manipulation des variables et des opérateurs

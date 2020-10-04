@@ -12,6 +12,9 @@ Parmi ces fonctions, nous pouvons lister :
 
 L'opérateur permettant de concaténer deux chaînes de caractères, c'est-à-dire d'ajouter ces deux chaînes l'une à la suite de l'autre, est le point : `.`
 
+
+## Un exemple d'utilisation
+
 ```php runnable
 <?php
     $string = "Hello world!";

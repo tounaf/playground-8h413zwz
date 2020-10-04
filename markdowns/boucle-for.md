@@ -17,6 +17,7 @@ La structure de la boucle est la suivante :
    }
 ?>
 ```
+
 ## Quand utiliser cette boucle ?
 
 La boucle for doit être utilisée plutôt dans les situations suivantes :
@@ -25,6 +26,7 @@ La boucle for doit être utilisée plutôt dans les situations suivantes :
 - le nombre d'itérations à effectuer est connu
 - les conditions de poursuite de la boucle sont simples
 - besoin d'énumérer des valeurs dans un intervalle donné et avec un pas régulier (espace entre deux valeurs contiguës)
+
 
 ## Un exemple d'utilisation
 

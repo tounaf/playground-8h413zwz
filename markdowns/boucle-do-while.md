@@ -22,6 +22,7 @@ La structure de la boucle est la suivante :
 
 Outre l'apparition du mot clé `do`, nous pouvons noter que la principale différence avec la boucle `while` est que la condition pour réaliser / continuer la boucle se situe à la fin de la boucle.
 
+
 ## Quand utiliser cette boucle ?
 
 La boucle do-while doit être utilisée plutôt dans les situations suivantes :
@@ -31,6 +32,7 @@ La boucle do-while doit être utilisée plutôt dans les situations suivantes :
 - les conditions de poursuite de la boucle ne sont pas forcément simples : combinaison de conditions par exemple
 
 Un cas d'utilisation classique de cette boucle est : une interaction avec l'utilisateur pour recueillir une information qui va conditionner la poursuite de la boucle.
+
 
 ## Un exemple d'utilisation
 
@@ -50,7 +52,8 @@ Tech.io ne fournissant pas l'interaction avec l'utilisateur, nous avons simulé 
 ?>
 ```
 
-### Un second exemple d'utilisation : 
+
+## Un second exemple d'utilisation : 
 
 - Tirage aléatoire de deux entiers.
 - La boucle se poursuit tant que la différence entre les deux entiers est supérieure à 10.

@@ -23,6 +23,7 @@ La structure de la boucle est la suivante :
 Contrairement à la boucle for, les trois éléments sont situés sur des lignes de code différentes.
 Seule la `condition` se trouve directement associée au mot clé `while`.
 
+
 ## Quand utiliser cette boucle ?
 
 La boucle while doit être utilisée plutôt dans les situations suivantes :
@@ -31,6 +32,7 @@ La boucle while doit être utilisée plutôt dans les situations suivantes :
 - les conditions de poursuite de la boucle ne sont pas forcément simples : combinaison de conditions par exemple
 
 La boucle while peut également être utilisée en lieu et place de la boucle for, c'est-à-dire pour faire exactement la même chose, même s'il est préférable d'utiliser une boucle for quand les conditions sont remplies.
+
 
 ## Un exemple d'utilisation
 

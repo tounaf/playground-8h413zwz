@@ -15,11 +15,13 @@ Une fonction peut également :
 - ne pas prendre de paramètres
 - ne pas renvoyer de résultat
 
+
 ## Quelques règles
 
 - Le mot clé permettant de définir une fonction est `function`
 - Le nom de la fonction doit respecter les mêmes règles de nommage que celles des variables
 - Les paramètres de la fonction sont toujours passés entre parenthèses
+
 
 ## Un exemple d'utilisation
 
