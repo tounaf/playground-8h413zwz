@@ -38,15 +38,15 @@ Ce programme permet de demander un entier à l'utilisateur, de calculer son carr
 
 ```php runnable
 <?php
-    echo ("Entrez un entier (0 pour arrêter)\n");
+    $fin = rand(10, 100);
     do {
-        fscanf(STDIN, "%d", $n);
-        if ($n != 0) {
+        $n = rand (10, 100);
+        if ($n != $fin) {
             $carre = $n ** 2;
             $cube = $n ** 3;
             echo ("$n $carre $cube\n");
         } else { echo ("Fin de la boucle\n"); }
-    } while ($n != 0);
+    } while ($n != $fin);
 ?>
 ```
 
