@@ -32,7 +32,7 @@ La boucle do-while doit être utilisée plutôt dans les situations suivantes :
 
 Un cas d'utilisation classique de cette boucle est : une interaction avec l'utilisateur pour recueillir une information qui va conditionner la poursuite de la boucle.
 
-## Un exemple d'utilisation
+## Un exemple d'utilisation
 
 Ce programme permet de demander un entier à l'utilisateur, de calculer son carré et son cube puis de les afficher, tant que l'entier saisi par l'utilisateur est différent de 0.
 Tech.io ne fournissant pas l'interaction avec l'utilisateur, nous avons simulé l'interaction utilisateur en générant un nombre aléatoirement dans l'intervale [-100, +100]. 
@@ -50,7 +50,21 @@ Tech.io ne fournissant pas l'interaction avec l'utilisateur, nous avons simulé 
 ?>
 ```
 
-Modifiez ce programme pour qu'il affiche les entiers sur la même ligne, séparés par une tabulation, puis affiche un retour chariot après la boucle.
-Attention, il ne faut pas ajouter de tabulation inutile après le dernier entier.
+### Un second exemple d'utilisation : 
 
-@[Bien manipuler la boucle do-while]({"stubs": ["boucle-while_exo1.php"], "command": "php boucle-while_exo1_test.php"})
+- Tirage aléatoire de deux entiers.
+- La boucle se poursuit tant que la différence entre les deux entiers est supérieure à 10.
+- Dans ce cas, les deux entiers sont affichés.
+
+```php runnable
+<?php
+    do {
+        $n1 = rand (10, 100);
+        $n2 = rand (10, 100);
+        $cond = (abs($n - $n2) > 10);
+        if ($cond) {
+            echo("$n1 $n2\n");
+        } else { echo("Fin de la boucle\n"); }
+    } while ($cond);
+?>
+```
