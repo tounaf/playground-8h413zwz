@@ -1,44 +1,71 @@
-# La boucle for
+# La boucle foreach
 
-Nous allons voir en détail le fonctionnement de la boucle `for`
+Nous allons voir en détail le fonctionnement de la boucle `foreach`
 
-Cette boucle est composée de trois éléments :
+Cette boucle permet de parcourir simplement les éléments d'un tableau.
+Elle est composée de :
 
-- l'initialisation de l'index utilisé pour la boucle : `initialisation`
-- la condition que doit vérifier l'index pour continuer la boucle : `condition`
-- la modification apportée à l'index : ̀`modification`
+- le tableau à parcourir : `tableau`
+- l'élément extrait à chaque itération : `element`
 
 La structure de la boucle est la suivante :
 
 ```php
 <?php
-   for (initialisation ; condition ; modification) {
+   foreach (tableau as element) {
       actions;
    }
 ?>
 ```
 ## Quand utiliser cette boucle ?
 
-La boucle for doit être utilisée plutôt dans les situations suivantes :
-
-- la répétition des mêmes actions un nombre prédéfini de fois
-- le nombre d'itérations à effectuer est connu
-- les conditions de poursuite de la boucle sont simples
-- besoin d'énumérer des valeurs dans un intervalle donné et avec un pas régulier (espace entre deux valeurs contiguës)
-
+Cette boucle doit être utilisée lorsque vous manipulez un tableau.
+Sa structure est plus simple à utiliser qu'une boucle for ou while.
 ## Un exemple d'utilisation
 
-Ce programme permet d'afficher les entiers de 1 à 10 en passant une ligne à chaque fois :
+Ce programme permet d'afficher les entiers de 1 à 10 en passant une ligne à chaque fois.
+Une version avec la boucle foreach et l'autre avec la boucle for.
 
 ```php runnable
 <?php
-   for ($i = 1 ; $i <= 10 ; $i++) {
-      echo ("$i\n");
+   $entiers = range(1,10);
+   echo ("-- foreach --\n");
+   foreach ($entiers as $valeur) {
+      echo ("$valeur\n");
+   }
+
+   echo ("-- for --\n");
+   for ($i = 0 ; $i < count($entiers) ; $i++) {
+      echo ("$entiers[$i]\n");
    }
 ?>
 ```
 
-Modifiez ce programme pour qu'il affiche les entiers sur la même ligne, séparés par une tabulation, puis affiche un retour chariot après la boucle.
-Attention, il ne faut pas ajouter de tabulation inutile après le dernier entier.
+La boucle `foreach` permet également de récupérer l'indice et l'élément courant.
+La structure de la boucle est alors la suivante : 
 
-@[Bien manipuler la boucle for]({"stubs": ["boucle-for_exo1.php"], "command": "php boucle-for_exo1_test.php"})
+```php
+<?php
+   foreach (tableau as indice => element) {
+      actions;
+   }
+?>
+```
+
+En voici un exemple d'utilisation :
+
+
+```php runnable
+<?php
+   $tableau = array(
+      "un" => 1,
+      "deux" => 2,
+      "trois" => 3,
+      "dix-sept" => 17
+   );
+
+   foreach ($tableau as $indice => $valeur) {
+      echo "\$tableau[$indice] => $valeur\n";
+   }
+?>
+```

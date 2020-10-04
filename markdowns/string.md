@@ -1,23 +1,24 @@
-# Les tableaux
+# Les chaînes de caractères
 
-Nous allons voir en détail le fonctionnement des `tableaux`
+Nous allons voir en détail le fonctionnement des `chaînes de caractères`
 
-Un tableau est une structure permettant de stocker dans une seule variable plusieurs éléments de même nature ou de natures différentes.
-
-La déclaration d'un tableau se fait grâce au mot clé `array`.
-
-De nombreuses fonctions permettent de manipuler les tableaux. Une liste exhaustive est disponible sur le site officiel de PHP : [Les tableaux en PHP](https://www.php.net/manual/fr/language.types.array.php).
+Une chaîne de caractères est une succession de caractères. Elle peut être considérée comme un tableau mais des fonctions spécifiques sont disponibles pour les manipuler.
+Une liste exhaustive est disponible sur le site officiel de PHP : [Les chaînes de caractères en PHP](https://www.php.net/language.types.string).
 
 Parmi ces fonctions, nous pouvons lister :
-- count(tableau) : permet de déterminer le nombre d'éléments d'un tableau
-- range(start, end, step) : permet de créer un tableau contenant les entiers compris entre `start` et `end`. Chaque entier est séparé de son voisin par `step` (par défaut 1).
+- strlen(string) : permet de déterminer le nombre de caractères d'une `string`
+- str_split(string) : permet de créer un tableau contenant les caractères de la chaîne.
+- count_chars(string) : retourne des statistiques sur les caractères utilisés dans une chaîne
 
-```php
+L'opérateur permettant de concaténer deux chaînes de caractères, c'est-à-dire d'ajouter ces deux chaînes l'une à la suite de l'autre, est le point : `.`
+
+```php runnable
 <?php
-    $tableau = array();
-    for ($i = 0; $i < 10; $i++) {
-        $tableau[] = rand(10, 100);
+    $string = "Hello world!";
+
+    foreach (count_chars($string, 1) as $i => $val) {
+        echo "Il y a $val occurence(s) de \"" , chr($i) , "\" dans la phrase.\n";
     }
-    print_r($tableau);
 ?>
 ```
+
