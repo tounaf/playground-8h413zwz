@@ -20,8 +20,10 @@ La structure de la boucle est la suivante :
 ## Quand utiliser cette boucle ?
 
 Cette boucle doit être utilisée lorsque vous manipulez un tableau.
-Sa structure est plus simple à utiliser qu'une boucle for ou while.
-## Un exemple d'utilisation
+Sa structure est plus simple à utiliser qu'une boucle for ou while.*
+
+
+## Un exemple d'utilisation
 
 Ce programme permet d'afficher les entiers de 1 à 10 en passant une ligne à chaque fois.
 Une version avec la boucle foreach et l'autre avec la boucle for.
