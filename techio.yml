@@ -18,6 +18,12 @@ plan:
 - title: Les tableaux
   statement: markdowns/tableaux.md
 
+- title: La boucle foreach
+  statement: markdowns/boucle-foreach.md
+
+- title: Les chaînes de caractères
+  statement: markdowns/string.md
+  
 - title: Exercice 1
   statement: markdowns/exercices/ex1.md
   

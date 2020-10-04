@@ -33,13 +33,9 @@ Ce programme permet définit une fonction `estPair` qui permet de définir si un
 
     for ($i=0; $i<10; $i++) {
         $n = rand(10,100);
-        if (estPair($n)) { echo ("$i est pair\n"); }
-        else { echo ("$i est impair\n"); }
+        if (estPair($n)) { echo ("[$i] $n est pair\n"); }
+        else { echo ("[$i] $n est impair\n"); }
     }
 ?>
 ```
 
-Modifiez ce programme pour qu'il affiche les entiers sur la même ligne, séparés par une tabulation, puis affiche un retour chariot après la boucle.
-Attention, il ne faut pas ajouter de tabulation inutile après le dernier entier.
-
-@[Bien manipuler la boucle while]({"stubs": ["boucle-while_exo1.php"], "command": "php boucle-while_exo1_test.php"})

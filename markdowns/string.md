@@ -10,9 +10,7 @@ De nombreuses fonctions permettent de manipuler les tableaux. Une liste exhausti
 
 Parmi ces fonctions, nous pouvons lister :
 - count(tableau) : permet de déterminer le nombre d'éléments d'un tableau
-- range(start, end, step) : permet de créer un tableau contenant les entiers compris entre `start` et `end`. Chaque entier est séparé de son voisin par `step` (par défaut 1)
-- array_splice(tableau, start, quantité) : permet de retirer de tableau, depuis la position start, quantité éléments
-- implode(glue, tableau) : permet de rassembler les éléments du tableau ensemble dans une chaîne de caractères. Les éléments sont séparés par `glue`
+- range(start, end, step) : permet de créer un tableau contenant les entiers compris entre `start` et `end`. Chaque entier est séparé de son voisin par `step` (par défaut 1).
 
 ```php
 <?php
@@ -21,6 +19,5 @@ Parmi ces fonctions, nous pouvons lister :
         $tableau[] = rand(10, 100);
     }
     print_r($tableau);
-    echo ("le tableau contient les entiers : ".implode(',', $tableau)."\n");
 ?>
 ```
