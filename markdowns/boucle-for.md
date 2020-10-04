@@ -33,8 +33,12 @@ Ce programme permet d'afficher les entiers de 1 à 10 en passant une ligne à ch
 
 ```php runnable
 <?php
-for ($i = 1 ; $i <= 10 ; $i++) {
-   echo ("$i\n");
-}
+   for ($i = 1 ; $i <= 10 ; $i++) {
+      echo ("$i\n");
+   }
 ?>
 ```
+
+Modifiez ce programme pour qu'il affiche les entiers sur la même ligne, séparés par une tabulation, puis affiche un retour chariot après la boucle.
+
+@[Remplissons des variables]({"stubs": ["boucle-for_exo1.php"], "command": "php boucle-for_exo1_test.php"})
