@@ -34,19 +34,19 @@ Un cas d'utilisation classique de cette boucle est : une interaction avec l'util
 
 ## Un exemple d'utilisation
 
-Ce programme permet de demander un entier à l'utilisateur, de calculer son carré et son cube puis de les afficher, tant que l'entier saisi par l'utilisateur est différent de 0 :
+Ce programme permet de demander un entier à l'utilisateur, de calculer son carré et son cube puis de les afficher, tant que l'entier saisi par l'utilisateur est différent de 0.
+Tech.io ne fournissant pas l'interaction avec l'utilisateur, nous avons simulé l'interaction utilisateur en générant un nombre aléatoirement dans l'intervale [-100, +100]. 
 
 ```php runnable
 <?php
-    $fin = rand(10, 100);
     do {
         $n = rand (10, 100);
-        if ($n != $fin) {
+        if ($n != 0) {
             $carre = $n ** 2;
             $cube = $n ** 3;
-            echo ("$n $carre $cube\n");
-        } else { echo ("Fin de la boucle\n"); }
-    } while ($n != $fin);
+            echo("$n $carre $cube\n");
+        } else { echo("Fin de la boucle\n"); }
+    } while ($n != 0);
 ?>
 ```
 
