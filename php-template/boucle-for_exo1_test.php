@@ -16,6 +16,10 @@
 	
 	if (strcmp($_solution, $reponse) == 0) {
 		echo("TECHIO> success true \r\n");
+		$contents = file_get_contents("boucle-for_exo1.php");
+		if (! preg_match("#(for)#",$contents))
+			echo("TECHIO> message --channel Bien joué mais il fallait utiliser la boucle for. \r\n");
+		
 	} 
 	else {
 		echo("TECHIO> success false  \r\n");
