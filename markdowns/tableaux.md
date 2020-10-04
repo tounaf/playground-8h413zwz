@@ -14,7 +14,7 @@ Parmi ces fonctions, nous pouvons lister :
 - array_splice(tableau, start, quantité) : permet de retirer de tableau, depuis la position start, quantité éléments
 - implode(glue, tableau) : permet de rassembler les éléments du tableau ensemble dans une chaîne de caractères. Les éléments sont séparés par `glue`
 
-```php
+```php runnable
 <?php
     $tableau = array();
     for ($i = 0; $i < 10; $i++) {
