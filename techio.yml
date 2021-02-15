@@ -1,32 +1,23 @@
-title: Introduction à PHP - Module M1202 - MMI1
+title: Introduction à PHP - Module 2
 plan:
 - title: Introduction
   statement: markdowns/introduction.md
-
 - title: La boucle for
   statement: markdowns/boucle-for.md
-
 - title: La boucle while
   statement: markdowns/boucle-while.md
-
 - title: La boucle do-while
   statement: markdowns/boucle-do-while.md
-
 - title: Les fonctions
   statement: markdowns/fonctions.md
-
 - title: Les tableaux
   statement: markdowns/tableaux.md
-
 - title: La boucle foreach
   statement: markdowns/boucle-foreach.md
-
 - title: Les chaînes de caractères
   statement: markdowns/string.md
-  
 - title: Exercice 1
   statement: markdowns/exercices/ex1.md
-  
 projects:
   first-project:
     root: /php-template
